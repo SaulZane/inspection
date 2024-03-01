@@ -4,7 +4,7 @@ from colorama import Fore, Back, Style, init
 init(autoreset=True)
 
 try:
-    print(Fore.GREEN+u"-----欢迎使用查验检验员违规查验同一车型嫌疑程序导出软件-----©张硕 保留所有权利|2024.2.28|V1.0-----")
+    print(Fore.GREEN+u"-----欢迎使用代理人和查验员嫌疑关系程序导出软件-----©张硕 保留所有权利|2024.2.29|V1.0-----")
     print(Fore.CYAN+u"使用说明：输入表名称必须是“表2.xlsx”，必须有“基础表”数据页。并且必须在程序的同名文件夹下")
     print(Fore.CYAN+u"必须含有“查验员单位 代理人 查验员” 三个字段，表头名字不能变")
     print(Fore.CYAN+u"如果运行成功，在同名文件夹下会看到result.xlsx结果表")
